@@ -1,33 +1,63 @@
 # 🔐 SOC Maintenance System
 
 ## 📌 Overview
-The SOC (Security Operations Center) Maintenance System is a project designed to simulate the core functionalities of a real-world SOC environment. It focuses on monitoring, analyzing, and maintaining system security by tracking activities, detecting anomalies, and generating alerts. This project provides a practical understanding of how security operations are managed in an organization.
+The SOC (Security Operations Center) Maintenance System is a web-based application developed using Java (JSP/Servlets) to simulate real-world security monitoring and management. It provides a structured platform to track system activities, manage logs, and detect potential security threats efficiently.
+
+The system includes a user-friendly interface with secure login functionality and a modern dashboard for monitoring operations.
+
+---
 
 ## 🚀 Features
-- Real-time system monitoring  
-- Log collection and analysis  
-- Threat and anomaly detection  
-- Alert generation for suspicious activities  
-- User activity tracking  
-- Dashboard for visualization and analytics  
-- File upload support (PDF/DOC for analysis)  
+- 🔐 Secure Login System (Admin/User)
+- 📊 Dashboard for monitoring activities  
+- 📁 Log management and tracking  
+- ⚠️ Alert generation for suspicious actions  
+- 👤 User management system  
+- 🏢 Clean and responsive UI design  
+
+---
 
 ## 🛠️ Tech Stack
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Python / JSP (Java)  
-- Database: MySQL  
-- Libraries: Pandas, Scikit-learn  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Java (JSP/Servlets)  
+- **Database:** MySQL  
+- **Server:** Apache Tomcat  
+
+---
 
 ## ⚙️ How It Works
-The system continuously collects logs and user activity data, processes it using backend logic, and identifies unusual patterns. Based on predefined rules or models, it generates alerts and displays them on a dashboard. This helps in quick identification of potential security threats and ensures efficient system maintenance.
+The system allows users to log in securely and access the dashboard. It records system activities and stores logs in the database. Based on predefined conditions, it identifies unusual behavior and generates alerts, helping maintain system security and monitoring efficiently.
+
+---
+
+## 📸 Screenshots
+
+### 🔑 Login Page
+![Login](login.jpg)
+
+### 👤 Admin Panel
+![Admin](adminphoto.png)
+
+### 🌆 Dashboard UI
+![Dashboard](bgimage.jpg)
+
+---
 
 ## 📌 Use Cases
 - Academic cybersecurity projects  
 - SOC workflow simulation  
-- Security monitoring practice  
-- Log analysis and anomaly detection  
+- Log monitoring and analysis  
+- Security management practice  
+
+---
 
 ## 🎯 Conclusion
-This project demonstrates the fundamental concepts of a SOC, including monitoring, detection, and response. It serves as a beginner-friendly implementation for understanding cybersecurity operations and can be further enhanced with advanced threat intelligence and automation features.
+This project demonstrates the core concepts of a Security Operations Center, including monitoring, logging, and alerting. It provides a practical and beginner-friendly implementation of cybersecurity operations using Java technologies.
+
+---
+
+## ⚠️ Note
+Make sure to configure your database and Apache Tomcat server before running the project.
+You can mail me on vedu.1257@gmail.com for dump file 
 
 ---
